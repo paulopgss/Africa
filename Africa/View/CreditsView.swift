@@ -17,7 +17,7 @@ struct CreditsView: View {
         .frame(width: 128, height: 128)
       
       Text("""
-  Copyright © Robert Petras
+  Copyright © Paulo Sousa
   All right reserved
   Better Apps ♡ Less Code
   """)
