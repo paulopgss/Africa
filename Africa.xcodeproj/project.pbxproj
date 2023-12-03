@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A44B2382B1CE6D30079801A /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44B2372B1CE6D30079801A /* VideoModel.swift */; };
+		3A44B23A2B1CE7490079801A /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44B2392B1CE7490079801A /* VideoListItemView.swift */; };
 		3AD49F452B1B92390067D8A3 /* elephant.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3AD49F3B2B1B92370067D8A3 /* elephant.mp4 */; };
 		3AD49F462B1B92390067D8A3 /* rhino.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3AD49F3C2B1B92380067D8A3 /* rhino.mp4 */; };
 		3AD49F472B1B92390067D8A3 /* hippo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3AD49F3D2B1B92380067D8A3 /* hippo.mp4 */; };
@@ -43,6 +45,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A44B2372B1CE6D30079801A /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		3A44B2392B1CE7490079801A /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		3AD49F3B2B1B92370067D8A3 /* elephant.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant.mp4; sourceTree = "<group>"; };
 		3AD49F3C2B1B92380067D8A3 /* rhino.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhino.mp4; sourceTree = "<group>"; };
 		3AD49F3D2B1B92380067D8A3 /* hippo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hippo.mp4; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 				3AD49F772B1BC19A0067D8A3 /* InsetGalleryView.swift */,
 				3AD49F792B1BC5A80067D8A3 /* InsetFactView.swift */,
 				3AD49F7B2B1BC8D20067D8A3 /* InsetMapView.swift */,
+				3A44B2392B1CE7490079801A /* VideoListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			children = (
 				3AD49F5F2B1BA1070067D8A3 /* CoverImageModel.swift */,
 				3AD49F712B1BB5460067D8A3 /* AnimalModel.swift */,
+				3A44B2372B1CE6D30079801A /* VideoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -301,8 +307,10 @@
 				3AD49F7C2B1BC8D20067D8A3 /* InsetMapView.swift in Sources */,
 				3AF7B7D62B1AB29D0016A88F /* AfricaApp.swift in Sources */,
 				3AD49F542B1B95770067D8A3 /* VideoListView.swift in Sources */,
+				3A44B2382B1CE6D30079801A /* VideoModel.swift in Sources */,
 				3AD49F582B1B960D0067D8A3 /* GalleryView.swift in Sources */,
 				3AD49F782B1BC19A0067D8A3 /* InsetGalleryView.swift in Sources */,
+				3A44B23A2B1CE7490079801A /* VideoListItemView.swift in Sources */,
 				3AD49F652B1BA8940067D8A3 /* CodableBundleExtension.swift in Sources */,
 				3AD49F762B1BBF8F0067D8A3 /* HeadingView.swift in Sources */,
 			);
