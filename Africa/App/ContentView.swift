@@ -59,7 +59,8 @@ struct ContentView: View {
               } //: LINK
             } //: LOOP
             
-            
+              CreditsView()
+                .modifier(CenterModifier())
           } //: LIST
           .listStyle(.plain)
         } else {
