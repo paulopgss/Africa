@@ -19,7 +19,6 @@ struct CreditsView: View {
       Text("""
   Copyright © Paulo Sousa
   All right reserved
-  Better Apps ♡ Less Code
   """)
         .font(.footnote)
         .multilineTextAlignment(.center)
